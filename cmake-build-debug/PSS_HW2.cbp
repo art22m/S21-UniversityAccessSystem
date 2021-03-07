@@ -83,6 +83,18 @@
 		<Unit filename="/Users/artmurashko/Desktop/PSS-HW2/AccessLevels/Access.h">
 			<Option target="PSS_HW2"/>
 		</Unit>
+		<Unit filename="/Users/artmurashko/Desktop/PSS-HW2/Rooms/Room.cpp">
+			<Option target="PSS_HW2"/>
+		</Unit>
+		<Unit filename="/Users/artmurashko/Desktop/PSS-HW2/Rooms/Room.h">
+			<Option target="PSS_HW2"/>
+		</Unit>
+		<Unit filename="/Users/artmurashko/Desktop/PSS-HW2/Rooms/RoomType.h">
+			<Option target="PSS_HW2"/>
+		</Unit>
+		<Unit filename="/Users/artmurashko/Desktop/PSS-HW2/UniversityAccessSystem.h">
+			<Option target="PSS_HW2"/>
+		</Unit>
 		<Unit filename="/Users/artmurashko/Desktop/PSS-HW2/Users/Admin.cpp">
 			<Option target="PSS_HW2"/>
 		</Unit>

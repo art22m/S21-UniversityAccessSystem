@@ -18,6 +18,10 @@ void Admin::changeAccessLevel(User &user, Access accessLevel) {
     std::cout << " to " << user.getAccessLevelString() << " for " << user.getName() << std::endl;
 }
 
+void Admin::grantAccessToRoom(Room &room, User &user) {
+    room.grantAccess(user);
+}
+
 void Admin::getAdditionalInfo() {
     std::cout << "\n-------| Additional information for " << getName() << " |-------\n";
     std::cout << "[1] Salary: " << getSalary() << std::endl;

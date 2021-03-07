@@ -6,6 +6,8 @@
 #define PSS_HW2_ADMIN_H
 
 #include "User.h"
+#include "../Rooms/Room.h"
+
 
 class Admin : public User {
 public:
@@ -13,6 +15,7 @@ public:
 
 public:
     void changeAccessLevel(User& user, Access accessLevel);
+    void grantAccessToRoom(Room &room, User &user);
     void getAdditionalInfo();
     int getSalary();
 

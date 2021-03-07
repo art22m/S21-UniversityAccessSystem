@@ -143,6 +143,33 @@ PSS_HW2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PSS_HW2.dir/build.make CMakeFiles/PSS_HW2.dir/build
 .PHONY : PSS_HW2/fast
 
+Rooms/Room.o: Rooms/Room.cpp.o
+
+.PHONY : Rooms/Room.o
+
+# target to build an object file
+Rooms/Room.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PSS_HW2.dir/build.make CMakeFiles/PSS_HW2.dir/Rooms/Room.cpp.o
+.PHONY : Rooms/Room.cpp.o
+
+Rooms/Room.i: Rooms/Room.cpp.i
+
+.PHONY : Rooms/Room.i
+
+# target to preprocess a source file
+Rooms/Room.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PSS_HW2.dir/build.make CMakeFiles/PSS_HW2.dir/Rooms/Room.cpp.i
+.PHONY : Rooms/Room.cpp.i
+
+Rooms/Room.s: Rooms/Room.cpp.s
+
+.PHONY : Rooms/Room.s
+
+# target to generate assembly for a file
+Rooms/Room.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PSS_HW2.dir/build.make CMakeFiles/PSS_HW2.dir/Rooms/Room.cpp.s
+.PHONY : Rooms/Room.cpp.s
+
 Users/Admin.o: Users/Admin.cpp.o
 
 .PHONY : Users/Admin.o
@@ -341,6 +368,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... PSS_HW2"
+	@echo "... Rooms/Room.o"
+	@echo "... Rooms/Room.i"
+	@echo "... Rooms/Room.s"
 	@echo "... Users/Admin.o"
 	@echo "... Users/Admin.i"
 	@echo "... Users/Admin.s"

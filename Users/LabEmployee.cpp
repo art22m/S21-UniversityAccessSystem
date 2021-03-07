@@ -5,10 +5,10 @@
 #include "LabEmployee.h"
 
 LabEmployee::LabEmployee(std::string name, int age, std::string email, std::string alias, int salary, std::string labName,
-                         std::string favoriveCafeName) : User(name, age, email, alias, Access::green) {
+                         std::string favoriteCafeName) : User(name, age, email, alias, Access::green) {
     this -> salary = salary;
     this -> labName = labName;
-    this -> favoriteCafeName = favoriveCafeName;
+    this -> favoriteCafeName = favoriteCafeName;
 }
 
 int LabEmployee::getSalary() {

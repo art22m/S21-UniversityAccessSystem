@@ -29,7 +29,7 @@ private:
     int age;
     Access accessLevel;
 
-    friend class Admin;
+    friend class Admin; // give access to all fields of User class for Admin class
 };
 
 #endif //PSS_HW2_USER_H

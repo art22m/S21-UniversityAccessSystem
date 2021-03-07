@@ -42,7 +42,11 @@ CMakeFiles/PSS_HW2.dir/main.cpp.o
  /Users/artmurashko/Desktop/PSS-HW2/AccessLevels/Access.h
  /Users/artmurashko/Desktop/PSS-HW2/Rooms/Room.h
  /Users/artmurashko/Desktop/PSS-HW2/Rooms/RoomType.h
+ /Users/artmurashko/Desktop/PSS-HW2/UniversityAccessSystem.h
  /Users/artmurashko/Desktop/PSS-HW2/Users/Admin.h
+ /Users/artmurashko/Desktop/PSS-HW2/Users/Director.h
+ /Users/artmurashko/Desktop/PSS-HW2/Users/LabEmployee.h
+ /Users/artmurashko/Desktop/PSS-HW2/Users/Professor.h
  /Users/artmurashko/Desktop/PSS-HW2/Users/Student.h
  /Users/artmurashko/Desktop/PSS-HW2/Users/User.h
  /Users/artmurashko/Desktop/PSS-HW2/main.cpp

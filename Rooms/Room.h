@@ -1,5 +1,5 @@
 //
-// Created by Артём Мурашко on 07.03.2021.
+// Created by Artem Murashko on 07.03.2021.
 //
 
 #ifndef PSS_HW2_ROOM_H
@@ -21,6 +21,7 @@ public:
     RoomType getType();
     Access getAccessLevel();
     std::string getTypeString();
+    void tryToEnter(User &user);
 
 private:
     void grantAccess(User &user);
@@ -30,8 +31,7 @@ private:
     RoomType type; // e.g. class room, lecture room, conference room, ...
     Access accessLevel; // shows what level of access can open the room
     std::vector <std::string> grantedAccessUsers; // Users with granted access
-    friend class Admin;
+    friend class Admin; // give access to all fields of Room class for Admin class
 };
-
 
 #endif //PSS_HW2_ROOM_H

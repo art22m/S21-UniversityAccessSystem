@@ -15,6 +15,8 @@ Room.h
 /Users/artmurashko/Desktop/PSS-HW2/Rooms/Room.h
 ../Users/User.h
 /Users/artmurashko/Desktop/PSS-HW2/Users/User.h
+../AccessLevels/Access.h
+/Users/artmurashko/Desktop/PSS-HW2/AccessLevels/Access.h
 RoomType.h
 /Users/artmurashko/Desktop/PSS-HW2/Rooms/RoomType.h
 string

@@ -39,10 +39,10 @@ void User::getMainInfo() {
 
 std::string User::getAccessLevelString() {
     switch (getAccessLevel()) {
-        case Access::no_level : return "NO LEVEL"; break;
-        case Access::green : return "GREEN"; break;
-        case Access::yellow : return "YELLOW"; break;
-        case Access::red : return "RED"; break;
+        case Access::no_level : return "NO LEVEL";
+        case Access::green : return "GREEN";
+        case Access::yellow : return "YELLOW";
+        case Access::red : return "RED";
     }
 }
 

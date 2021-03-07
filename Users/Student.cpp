@@ -25,7 +25,7 @@ double Student::getGPA() {
 
 void Student::getAdditionalInfo() {
     std::cout << "\n-------| Additional information for " << getName() << " |-------\n";
-    std::cout << "[1] Salary: " << getScholarship() << std::endl;
+    std::cout << "[1] Scholarship: " << getScholarship() << std::endl;
     std::cout << "[2] Group Number: " << getGroup() << std::endl;
     std::cout << "[3] GPA: " << getGPA() << std::endl;
 }

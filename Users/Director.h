@@ -9,15 +9,16 @@
 
 class Director : public User {
 public:
-    Director(std::string name, int age, std::string email, std::string alias, int salary, std::string favoriteCafe);
+    Director(std::string name, int age, std::string email, std::string alias, int salary, int numberOfDroppedStudents);
 
 public:
     int getSalary();
-    std::string getFavoriteCafeName();
+    int getNumberOfDroppedStudents();
     void getAdditionalInfo();
+
 private:
+    int numberOfDroppedStudents;
     int salary;
-    std::string favoriteCafeName;
 };
 
 #endif //PSS_HW2_DIRECTOR_H

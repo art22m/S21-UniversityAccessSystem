@@ -26,4 +26,3 @@ void Admin::getAdditionalInfo() {
     std::cout << "\n-------| Additional information for " << getName() << " |-------\n";
     std::cout << "[1] Salary: " << getSalary() << std::endl;
 }
-

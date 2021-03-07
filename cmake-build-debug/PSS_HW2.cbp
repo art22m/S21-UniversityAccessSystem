@@ -80,6 +80,45 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/artmurashko/Desktop/PSS-HW2/AccessLevels/Access.h">
+			<Option target="PSS_HW2"/>
+		</Unit>
+		<Unit filename="/Users/artmurashko/Desktop/PSS-HW2/Users/Admin.cpp">
+			<Option target="PSS_HW2"/>
+		</Unit>
+		<Unit filename="/Users/artmurashko/Desktop/PSS-HW2/Users/Admin.h">
+			<Option target="PSS_HW2"/>
+		</Unit>
+		<Unit filename="/Users/artmurashko/Desktop/PSS-HW2/Users/Director.cpp">
+			<Option target="PSS_HW2"/>
+		</Unit>
+		<Unit filename="/Users/artmurashko/Desktop/PSS-HW2/Users/Director.h">
+			<Option target="PSS_HW2"/>
+		</Unit>
+		<Unit filename="/Users/artmurashko/Desktop/PSS-HW2/Users/LabEmployee.cpp">
+			<Option target="PSS_HW2"/>
+		</Unit>
+		<Unit filename="/Users/artmurashko/Desktop/PSS-HW2/Users/LabEmployee.h">
+			<Option target="PSS_HW2"/>
+		</Unit>
+		<Unit filename="/Users/artmurashko/Desktop/PSS-HW2/Users/Professor.cpp">
+			<Option target="PSS_HW2"/>
+		</Unit>
+		<Unit filename="/Users/artmurashko/Desktop/PSS-HW2/Users/Professor.h">
+			<Option target="PSS_HW2"/>
+		</Unit>
+		<Unit filename="/Users/artmurashko/Desktop/PSS-HW2/Users/Student.cpp">
+			<Option target="PSS_HW2"/>
+		</Unit>
+		<Unit filename="/Users/artmurashko/Desktop/PSS-HW2/Users/Student.h">
+			<Option target="PSS_HW2"/>
+		</Unit>
+		<Unit filename="/Users/artmurashko/Desktop/PSS-HW2/Users/User.cpp">
+			<Option target="PSS_HW2"/>
+		</Unit>
+		<Unit filename="/Users/artmurashko/Desktop/PSS-HW2/Users/User.h">
+			<Option target="PSS_HW2"/>
+		</Unit>
 		<Unit filename="/Users/artmurashko/Desktop/PSS-HW2/main.cpp">
 			<Option target="PSS_HW2"/>
 		</Unit>

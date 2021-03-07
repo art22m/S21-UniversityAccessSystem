@@ -143,6 +143,168 @@ PSS_HW2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PSS_HW2.dir/build.make CMakeFiles/PSS_HW2.dir/build
 .PHONY : PSS_HW2/fast
 
+Users/Admin.o: Users/Admin.cpp.o
+
+.PHONY : Users/Admin.o
+
+# target to build an object file
+Users/Admin.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PSS_HW2.dir/build.make CMakeFiles/PSS_HW2.dir/Users/Admin.cpp.o
+.PHONY : Users/Admin.cpp.o
+
+Users/Admin.i: Users/Admin.cpp.i
+
+.PHONY : Users/Admin.i
+
+# target to preprocess a source file
+Users/Admin.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PSS_HW2.dir/build.make CMakeFiles/PSS_HW2.dir/Users/Admin.cpp.i
+.PHONY : Users/Admin.cpp.i
+
+Users/Admin.s: Users/Admin.cpp.s
+
+.PHONY : Users/Admin.s
+
+# target to generate assembly for a file
+Users/Admin.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PSS_HW2.dir/build.make CMakeFiles/PSS_HW2.dir/Users/Admin.cpp.s
+.PHONY : Users/Admin.cpp.s
+
+Users/Director.o: Users/Director.cpp.o
+
+.PHONY : Users/Director.o
+
+# target to build an object file
+Users/Director.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PSS_HW2.dir/build.make CMakeFiles/PSS_HW2.dir/Users/Director.cpp.o
+.PHONY : Users/Director.cpp.o
+
+Users/Director.i: Users/Director.cpp.i
+
+.PHONY : Users/Director.i
+
+# target to preprocess a source file
+Users/Director.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PSS_HW2.dir/build.make CMakeFiles/PSS_HW2.dir/Users/Director.cpp.i
+.PHONY : Users/Director.cpp.i
+
+Users/Director.s: Users/Director.cpp.s
+
+.PHONY : Users/Director.s
+
+# target to generate assembly for a file
+Users/Director.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PSS_HW2.dir/build.make CMakeFiles/PSS_HW2.dir/Users/Director.cpp.s
+.PHONY : Users/Director.cpp.s
+
+Users/LabEmployee.o: Users/LabEmployee.cpp.o
+
+.PHONY : Users/LabEmployee.o
+
+# target to build an object file
+Users/LabEmployee.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PSS_HW2.dir/build.make CMakeFiles/PSS_HW2.dir/Users/LabEmployee.cpp.o
+.PHONY : Users/LabEmployee.cpp.o
+
+Users/LabEmployee.i: Users/LabEmployee.cpp.i
+
+.PHONY : Users/LabEmployee.i
+
+# target to preprocess a source file
+Users/LabEmployee.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PSS_HW2.dir/build.make CMakeFiles/PSS_HW2.dir/Users/LabEmployee.cpp.i
+.PHONY : Users/LabEmployee.cpp.i
+
+Users/LabEmployee.s: Users/LabEmployee.cpp.s
+
+.PHONY : Users/LabEmployee.s
+
+# target to generate assembly for a file
+Users/LabEmployee.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PSS_HW2.dir/build.make CMakeFiles/PSS_HW2.dir/Users/LabEmployee.cpp.s
+.PHONY : Users/LabEmployee.cpp.s
+
+Users/Professor.o: Users/Professor.cpp.o
+
+.PHONY : Users/Professor.o
+
+# target to build an object file
+Users/Professor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PSS_HW2.dir/build.make CMakeFiles/PSS_HW2.dir/Users/Professor.cpp.o
+.PHONY : Users/Professor.cpp.o
+
+Users/Professor.i: Users/Professor.cpp.i
+
+.PHONY : Users/Professor.i
+
+# target to preprocess a source file
+Users/Professor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PSS_HW2.dir/build.make CMakeFiles/PSS_HW2.dir/Users/Professor.cpp.i
+.PHONY : Users/Professor.cpp.i
+
+Users/Professor.s: Users/Professor.cpp.s
+
+.PHONY : Users/Professor.s
+
+# target to generate assembly for a file
+Users/Professor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PSS_HW2.dir/build.make CMakeFiles/PSS_HW2.dir/Users/Professor.cpp.s
+.PHONY : Users/Professor.cpp.s
+
+Users/Student.o: Users/Student.cpp.o
+
+.PHONY : Users/Student.o
+
+# target to build an object file
+Users/Student.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PSS_HW2.dir/build.make CMakeFiles/PSS_HW2.dir/Users/Student.cpp.o
+.PHONY : Users/Student.cpp.o
+
+Users/Student.i: Users/Student.cpp.i
+
+.PHONY : Users/Student.i
+
+# target to preprocess a source file
+Users/Student.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PSS_HW2.dir/build.make CMakeFiles/PSS_HW2.dir/Users/Student.cpp.i
+.PHONY : Users/Student.cpp.i
+
+Users/Student.s: Users/Student.cpp.s
+
+.PHONY : Users/Student.s
+
+# target to generate assembly for a file
+Users/Student.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PSS_HW2.dir/build.make CMakeFiles/PSS_HW2.dir/Users/Student.cpp.s
+.PHONY : Users/Student.cpp.s
+
+Users/User.o: Users/User.cpp.o
+
+.PHONY : Users/User.o
+
+# target to build an object file
+Users/User.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PSS_HW2.dir/build.make CMakeFiles/PSS_HW2.dir/Users/User.cpp.o
+.PHONY : Users/User.cpp.o
+
+Users/User.i: Users/User.cpp.i
+
+.PHONY : Users/User.i
+
+# target to preprocess a source file
+Users/User.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PSS_HW2.dir/build.make CMakeFiles/PSS_HW2.dir/Users/User.cpp.i
+.PHONY : Users/User.cpp.i
+
+Users/User.s: Users/User.cpp.s
+
+.PHONY : Users/User.s
+
+# target to generate assembly for a file
+Users/User.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PSS_HW2.dir/build.make CMakeFiles/PSS_HW2.dir/Users/User.cpp.s
+.PHONY : Users/User.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -179,6 +341,24 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... PSS_HW2"
+	@echo "... Users/Admin.o"
+	@echo "... Users/Admin.i"
+	@echo "... Users/Admin.s"
+	@echo "... Users/Director.o"
+	@echo "... Users/Director.i"
+	@echo "... Users/Director.s"
+	@echo "... Users/LabEmployee.o"
+	@echo "... Users/LabEmployee.i"
+	@echo "... Users/LabEmployee.s"
+	@echo "... Users/Professor.o"
+	@echo "... Users/Professor.i"
+	@echo "... Users/Professor.s"
+	@echo "... Users/Student.o"
+	@echo "... Users/Student.i"
+	@echo "... Users/Student.s"
+	@echo "... Users/User.o"
+	@echo "... Users/User.i"
+	@echo "... Users/User.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

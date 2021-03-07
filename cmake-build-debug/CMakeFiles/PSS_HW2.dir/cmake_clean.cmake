@@ -1,4 +1,10 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/PSS_HW2.dir/Users/Admin.cpp.o"
+  "CMakeFiles/PSS_HW2.dir/Users/Director.cpp.o"
+  "CMakeFiles/PSS_HW2.dir/Users/LabEmployee.cpp.o"
+  "CMakeFiles/PSS_HW2.dir/Users/Professor.cpp.o"
+  "CMakeFiles/PSS_HW2.dir/Users/Student.cpp.o"
+  "CMakeFiles/PSS_HW2.dir/Users/User.cpp.o"
   "CMakeFiles/PSS_HW2.dir/main.cpp.o"
   "PSS_HW2"
   "PSS_HW2.pdb"

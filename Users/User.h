@@ -8,8 +8,9 @@
 #include <string>
 #include <iostream>
 #include "../AccessLevels/Access.h"
+#include "../Emergency System/EmergencySystem.h"
 
-class User {
+class User : public EmergencySystem {
 protected:
     User(std::string name, int age, std::string email, std::string alias, Access accessLevel);
 

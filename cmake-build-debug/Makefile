@@ -143,6 +143,33 @@ PSS_HW2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PSS_HW2.dir/build.make CMakeFiles/PSS_HW2.dir/build
 .PHONY : PSS_HW2/fast
 
+Emergency_System/EmergencySystem.o: Emergency_System/EmergencySystem.cpp.o
+
+.PHONY : Emergency_System/EmergencySystem.o
+
+# target to build an object file
+Emergency_System/EmergencySystem.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PSS_HW2.dir/build.make CMakeFiles/PSS_HW2.dir/Emergency_System/EmergencySystem.cpp.o
+.PHONY : Emergency_System/EmergencySystem.cpp.o
+
+Emergency_System/EmergencySystem.i: Emergency_System/EmergencySystem.cpp.i
+
+.PHONY : Emergency_System/EmergencySystem.i
+
+# target to preprocess a source file
+Emergency_System/EmergencySystem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PSS_HW2.dir/build.make CMakeFiles/PSS_HW2.dir/Emergency_System/EmergencySystem.cpp.i
+.PHONY : Emergency_System/EmergencySystem.cpp.i
+
+Emergency_System/EmergencySystem.s: Emergency_System/EmergencySystem.cpp.s
+
+.PHONY : Emergency_System/EmergencySystem.s
+
+# target to generate assembly for a file
+Emergency_System/EmergencySystem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PSS_HW2.dir/build.make CMakeFiles/PSS_HW2.dir/Emergency_System/EmergencySystem.cpp.s
+.PHONY : Emergency_System/EmergencySystem.cpp.s
+
 Rooms/Room.o: Rooms/Room.cpp.o
 
 .PHONY : Rooms/Room.o
@@ -395,6 +422,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... PSS_HW2"
+	@echo "... Emergency_System/EmergencySystem.o"
+	@echo "... Emergency_System/EmergencySystem.i"
+	@echo "... Emergency_System/EmergencySystem.s"
 	@echo "... Rooms/Room.o"
 	@echo "... Rooms/Room.i"
 	@echo "... Rooms/Room.s"

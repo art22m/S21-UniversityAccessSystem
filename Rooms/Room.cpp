@@ -62,6 +62,10 @@ void Room::grantAccess(User &user) {
 }
 
 void Room::tryToEnter(User &user) {
+    if (isEmergency()) {
+        std::cout << "\n*ALARM* " << user.getName() << " entered the room " << getNumber() << " successfully \n";
+        return;
+    }
     // Checking if user has granted access
     for (const auto& i : grantedAccessUsers) {
         if (i == user.getEmail()) {

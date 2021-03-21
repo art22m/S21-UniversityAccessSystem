@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/PSS_HW2.dir/Emergency_System/EmergencySystem.cpp.o"
   "CMakeFiles/PSS_HW2.dir/Rooms/Room.cpp.o"
   "CMakeFiles/PSS_HW2.dir/Users/Admin.cpp.o"
   "CMakeFiles/PSS_HW2.dir/Users/Director.cpp.o"

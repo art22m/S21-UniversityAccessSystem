@@ -11,6 +11,9 @@ using namespace std;
  * admins -> all rooms <—> red level
  */
 
+// Initialize static field (Emergency is turned off by default)
+bool EmergencySystem::emergency = false;
+
 /*--------------- Guests ---------------*/
 vector <Guest> guestsList = {
         Guest("Shaun Knapp", 32, "e.brien@msu.ru", "@knapp", "Lomonosov MSU"),
@@ -151,6 +154,31 @@ int main() {
     roomsList[9].tryToEnter(guestsList[0]); // Conference room on the first floor
     roomsList[6].tryToEnter(guestsList[0]);
     roomsList[8].tryToEnter(guestsList[0]);
+
+    /* --------------------------------------------------------------------------------------------------- */
+
+    // Example of Emergency
+
+    // Get info of User
+    studentsList[0].getMainInfo();
+
+    roomsList[0].tryToEnter(studentsList[0]);
+    roomsList[2].tryToEnter(studentsList[0]);
+    roomsList[8].tryToEnter(studentsList[0]);
+
+    labEmployeesList[2].emergencyOn();
+    labEmployeesList[4].emergencyOn(); // The system is already on
+
+    // Alarm, all rooms open
+    roomsList[0].tryToEnter(studentsList[0]);
+    roomsList[2].tryToEnter(studentsList[0]);
+    roomsList[8].tryToEnter(studentsList[0]);
+
+    labEmployeesList[3].emergencyOff();
+    labEmployeesList[5].emergencyOff(); // The system is already off
+
+    // The director's cabinet is closed again, since there is no alarm
+    roomsList[8].tryToEnter(studentsList[0]);
 
     return 0;
 }

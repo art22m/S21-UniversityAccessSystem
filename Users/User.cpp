@@ -29,11 +29,13 @@ int User::getAge() {
 }
 
 void User::emergencyOn() {
-    std::cout << "\n" << getName() << "turned on the Alarm \n";
+    std::cout << "\n" << getName() << " turned on the Alarm \n";
+    setEmergency(true);
 }
 
 void User::emergencyOff() {
-    std::cout << "\n" << getName() << "turned off the Alarm \n";
+    std::cout << "\n" << getName() << " turned off the Alarm \n";
+    setEmergency(false);
 }
 
 void User::getMainInfo() {

@@ -83,6 +83,12 @@
 		<Unit filename="/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/AccessLevels/Access.h">
 			<Option target="PSS_HW2"/>
 		</Unit>
+		<Unit filename="/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/Emergency System/EmergencySystem.cpp">
+			<Option target="PSS_HW2"/>
+		</Unit>
+		<Unit filename="/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/Emergency System/EmergencySystem.h">
+			<Option target="PSS_HW2"/>
+		</Unit>
 		<Unit filename="/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/Rooms/Room.cpp">
 			<Option target="PSS_HW2"/>
 		</Unit>

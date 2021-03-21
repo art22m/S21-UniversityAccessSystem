@@ -19,6 +19,8 @@ public:
     std::string getAlias();
     std::string getAccessLevelString();
     void getMainInfo();
+    void emergencyOn();
+    void emergencyOff();
     int getAge();
     Access getAccessLevel();
 

@@ -28,6 +28,14 @@ int User::getAge() {
     return age;
 }
 
+void User::emergencyOn() {
+    std::cout << "\n" << getName() << "turned on the Alarm \n";
+}
+
+void User::emergencyOff() {
+    std::cout << "\n" << getName() << "turned off the Alarm \n";
+}
+
 void User::getMainInfo() {
     std::cout <<  "\n-------| Information |-------\n" <<
            "(1) Name: " << getName() << "\n" <<

@@ -3,12 +3,21 @@
 using namespace std;
 
 /*
+ * guests -> lecture room, conference room on the first floor <-> blue level
  * students —> class room, conference room <—> green level
  * lab employees —> class room, conference room <—> green level
- * professors —> green level rooms + lecture room, cabinet <—> yellow level
- * director —> green + yellow level rooms +director cabinet <—> red level
+ * professors —> blue + green level rooms + lecture room, cabinet <—> yellow level
+ * director —> blue + green + yellow level rooms +director cabinet <—> red level
  * admins -> all rooms <—> red level
  */
+
+/*--------------- Guests ---------------*/
+vector <Guest> guestsList = {
+        Guest("Shaun Knapp", 32, "e.brien@msu.ru", "@knapp", "Lomonosov MSU"),
+        Guest("Luci Carson", 45, "e.brien@mipt.ru", "@carson", "MIPT"),
+        Guest("Erika Alfaro", 23, "e.brien@mit.com", "@aldaro", "MIT"),
+        Guest("Giles Molloy", 53, "e.brien@hse.ru", "@molloy", "HSE")
+};
 
 
 /*--------------- Students ---------------*/
@@ -74,6 +83,7 @@ vector <Room> roomsList = {
         Room("401", RoomType::cabinet),
         Room("402", RoomType::cabinet),
         Room("444", RoomType::directorCabinet),
+        Room("111", RoomType::conferenceRoom)
 };
 
 int main() {
@@ -127,5 +137,20 @@ int main() {
     roomsList[8].tryToEnter(director_main); // Director can enter any room
 
     admin_first.grantAccessToRoom(roomsList[0], director_main); // Let's try to give access to Class Room for director
+
+    /* --------------------------------------------------------------------------------------------------- */
+
+    // Example for Guest
+
+    guestsList[0].getMainInfo();
+    guestsList[0].getAdditionalInfo();
+
+    roomsList[0].tryToEnter(guestsList[0]);
+    roomsList[2].tryToEnter(guestsList[0]); // Lecture room
+    roomsList[4].tryToEnter(guestsList[0]); // Conference room of the second floor
+    roomsList[9].tryToEnter(guestsList[0]); // Conference room on the first floor
+    roomsList[6].tryToEnter(guestsList[0]);
+    roomsList[8].tryToEnter(guestsList[0]);
+
     return 0;
 }

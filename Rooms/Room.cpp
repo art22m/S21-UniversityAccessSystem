@@ -71,7 +71,8 @@ void Room::tryToEnter(User &user) {
         }
     }
 
-    if (user.getAccessLevel() >= getAccessLevel()) {
+    // If user have access level blue, then we check if the room of type 'Lecture Room' or room's number start with 1 (That means room on the first floor)
+    if (user.getAccessLevel() >= getAccessLevel() || (user.getAccessLevel() == Access::blue && (type == RoomType::lectureRoom || number[0] == '1'))) {
         std::cout << "\n" << user.getName() << " entered the room " << getNumber() << " successfully \n";
     } else {
         std::cout << "\n" << user.getName() << " does not have access to the room " << getNumber() << "\n";

@@ -8,11 +8,63 @@
 
 /Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/AccessLevels/Access.h
 
-/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/Users/Guest.cpp
-Guest.h
+/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/Rooms/Room.h
+../Users/User.h
+/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/Users/User.h
+../AccessLevels/Access.h
+/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/AccessLevels/Access.h
+RoomType.h
+/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/Rooms/RoomType.h
+string
+-
+vector
+-
+
+/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/Rooms/RoomType.h
+
+/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/UniversityAccessSystem.h
+Users/User.h
+/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/Users/User.h
+Users/Admin.h
+/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/Users/Admin.h
+Users/Director.h
+/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/Users/Director.h
+Users/Professor.h
+/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/Users/Professor.h
+Users/LabEmployee.h
+/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/Users/LabEmployee.h
+Users/Student.h
+/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/Users/Student.h
+Users/Guest.h
 /Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/Users/Guest.h
+Rooms/Room.h
+/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/Rooms/Room.h
+Rooms/RoomType.h
+/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/Rooms/RoomType.h
+
+/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/Users/Admin.h
+User.h
+/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/Users/User.h
+../Rooms/Room.h
+/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/Rooms/Room.h
+
+/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/Users/Director.h
+User.h
+/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/Users/User.h
 
 /Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/Users/Guest.h
+User.h
+/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/Users/User.h
+
+/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/Users/LabEmployee.h
+User.h
+/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/Users/User.h
+
+/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/Users/Professor.h
+User.h
+/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/Users/User.h
+
+/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/Users/Student.h
 User.h
 /Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/Users/User.h
 
@@ -23,4 +75,8 @@ iostream
 -
 ../AccessLevels/Access.h
 /Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/AccessLevels/Access.h
+
+/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/main.cpp
+UniversityAccessSystem.h
+/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/UniversityAccessSystem.h
 

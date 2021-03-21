@@ -49,6 +49,7 @@ CMakeFiles/PSS_HW2.dir/main.cpp.o: ../Rooms/RoomType.h
 CMakeFiles/PSS_HW2.dir/main.cpp.o: ../UniversityAccessSystem.h
 CMakeFiles/PSS_HW2.dir/main.cpp.o: ../Users/Admin.h
 CMakeFiles/PSS_HW2.dir/main.cpp.o: ../Users/Director.h
+CMakeFiles/PSS_HW2.dir/main.cpp.o: ../Users/Guest.h
 CMakeFiles/PSS_HW2.dir/main.cpp.o: ../Users/LabEmployee.h
 CMakeFiles/PSS_HW2.dir/main.cpp.o: ../Users/Professor.h
 CMakeFiles/PSS_HW2.dir/main.cpp.o: ../Users/Student.h

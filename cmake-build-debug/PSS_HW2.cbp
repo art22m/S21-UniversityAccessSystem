@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/artmurashko/Desktop/PSS-HW2/cmake-build-debug"/>
+				<Option working_dir="/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/artmurashko/Desktop/PSS-HW2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/artmurashko/Desktop/PSS-HW2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/artmurashko/Desktop/PSS-HW2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/artmurashko/Desktop/PSS-HW2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/artmurashko/Desktop/Programming\ Tasks/PSS-HW2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/artmurashko/Desktop/Programming\ Tasks/PSS-HW2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/artmurashko/Desktop/Programming\ Tasks/PSS-HW2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/artmurashko/Desktop/Programming\ Tasks/PSS-HW2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/artmurashko/Desktop/PSS-HW2/cmake-build-debug"/>
+				<Option working_dir="/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/artmurashko/Desktop/PSS-HW2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/artmurashko/Desktop/PSS-HW2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/artmurashko/Desktop/PSS-HW2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/artmurashko/Desktop/PSS-HW2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/artmurashko/Desktop/Programming\ Tasks/PSS-HW2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/artmurashko/Desktop/Programming\ Tasks/PSS-HW2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/artmurashko/Desktop/Programming\ Tasks/PSS-HW2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/artmurashko/Desktop/Programming\ Tasks/PSS-HW2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/artmurashko/Desktop/PSS-HW2/cmake-build-debug"/>
+				<Option working_dir="/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/artmurashko/Desktop/PSS-HW2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/artmurashko/Desktop/PSS-HW2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/artmurashko/Desktop/PSS-HW2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/artmurashko/Desktop/PSS-HW2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/artmurashko/Desktop/Programming\ Tasks/PSS-HW2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/artmurashko/Desktop/Programming\ Tasks/PSS-HW2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/artmurashko/Desktop/Programming\ Tasks/PSS-HW2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/artmurashko/Desktop/Programming\ Tasks/PSS-HW2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="PSS_HW2">
-				<Option output="/Users/artmurashko/Desktop/PSS-HW2/cmake-build-debug/PSS_HW2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/artmurashko/Desktop/PSS-HW2/cmake-build-debug"/>
+				<Option output="/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/cmake-build-debug/PSS_HW2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -52,15 +52,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/artmurashko/Desktop/PSS-HW2/cmake-build-debug/Makefile&quot;  VERBOSE=1 PSS_HW2"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/artmurashko/Desktop/PSS-HW2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/artmurashko/Desktop/PSS-HW2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/artmurashko/Desktop/PSS-HW2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/artmurashko/Desktop/Programming\ Tasks/PSS-HW2/cmake-build-debug/Makefile&quot;  VERBOSE=1 PSS_HW2"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/artmurashko/Desktop/Programming\ Tasks/PSS-HW2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/artmurashko/Desktop/Programming\ Tasks/PSS-HW2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/artmurashko/Desktop/Programming\ Tasks/PSS-HW2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="PSS_HW2/fast">
-				<Option output="/Users/artmurashko/Desktop/PSS-HW2/cmake-build-debug/PSS_HW2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/artmurashko/Desktop/PSS-HW2/cmake-build-debug"/>
+				<Option output="/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/cmake-build-debug/PSS_HW2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -73,68 +73,74 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/artmurashko/Desktop/PSS-HW2/cmake-build-debug/Makefile&quot;  VERBOSE=1 PSS_HW2/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/artmurashko/Desktop/PSS-HW2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/artmurashko/Desktop/PSS-HW2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/artmurashko/Desktop/PSS-HW2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/artmurashko/Desktop/Programming\ Tasks/PSS-HW2/cmake-build-debug/Makefile&quot;  VERBOSE=1 PSS_HW2/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/artmurashko/Desktop/Programming\ Tasks/PSS-HW2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/artmurashko/Desktop/Programming\ Tasks/PSS-HW2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/artmurashko/Desktop/Programming\ Tasks/PSS-HW2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/artmurashko/Desktop/PSS-HW2/AccessLevels/Access.h">
+		<Unit filename="/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/AccessLevels/Access.h">
 			<Option target="PSS_HW2"/>
 		</Unit>
-		<Unit filename="/Users/artmurashko/Desktop/PSS-HW2/Rooms/Room.cpp">
+		<Unit filename="/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/Rooms/Room.cpp">
 			<Option target="PSS_HW2"/>
 		</Unit>
-		<Unit filename="/Users/artmurashko/Desktop/PSS-HW2/Rooms/Room.h">
+		<Unit filename="/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/Rooms/Room.h">
 			<Option target="PSS_HW2"/>
 		</Unit>
-		<Unit filename="/Users/artmurashko/Desktop/PSS-HW2/Rooms/RoomType.h">
+		<Unit filename="/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/Rooms/RoomType.h">
 			<Option target="PSS_HW2"/>
 		</Unit>
-		<Unit filename="/Users/artmurashko/Desktop/PSS-HW2/UniversityAccessSystem.h">
+		<Unit filename="/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/UniversityAccessSystem.h">
 			<Option target="PSS_HW2"/>
 		</Unit>
-		<Unit filename="/Users/artmurashko/Desktop/PSS-HW2/Users/Admin.cpp">
+		<Unit filename="/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/Users/Admin.cpp">
 			<Option target="PSS_HW2"/>
 		</Unit>
-		<Unit filename="/Users/artmurashko/Desktop/PSS-HW2/Users/Admin.h">
+		<Unit filename="/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/Users/Admin.h">
 			<Option target="PSS_HW2"/>
 		</Unit>
-		<Unit filename="/Users/artmurashko/Desktop/PSS-HW2/Users/Director.cpp">
+		<Unit filename="/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/Users/Director.cpp">
 			<Option target="PSS_HW2"/>
 		</Unit>
-		<Unit filename="/Users/artmurashko/Desktop/PSS-HW2/Users/Director.h">
+		<Unit filename="/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/Users/Director.h">
 			<Option target="PSS_HW2"/>
 		</Unit>
-		<Unit filename="/Users/artmurashko/Desktop/PSS-HW2/Users/LabEmployee.cpp">
+		<Unit filename="/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/Users/Guest.cpp">
 			<Option target="PSS_HW2"/>
 		</Unit>
-		<Unit filename="/Users/artmurashko/Desktop/PSS-HW2/Users/LabEmployee.h">
+		<Unit filename="/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/Users/Guest.h">
 			<Option target="PSS_HW2"/>
 		</Unit>
-		<Unit filename="/Users/artmurashko/Desktop/PSS-HW2/Users/Professor.cpp">
+		<Unit filename="/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/Users/LabEmployee.cpp">
 			<Option target="PSS_HW2"/>
 		</Unit>
-		<Unit filename="/Users/artmurashko/Desktop/PSS-HW2/Users/Professor.h">
+		<Unit filename="/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/Users/LabEmployee.h">
 			<Option target="PSS_HW2"/>
 		</Unit>
-		<Unit filename="/Users/artmurashko/Desktop/PSS-HW2/Users/Student.cpp">
+		<Unit filename="/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/Users/Professor.cpp">
 			<Option target="PSS_HW2"/>
 		</Unit>
-		<Unit filename="/Users/artmurashko/Desktop/PSS-HW2/Users/Student.h">
+		<Unit filename="/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/Users/Professor.h">
 			<Option target="PSS_HW2"/>
 		</Unit>
-		<Unit filename="/Users/artmurashko/Desktop/PSS-HW2/Users/User.cpp">
+		<Unit filename="/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/Users/Student.cpp">
 			<Option target="PSS_HW2"/>
 		</Unit>
-		<Unit filename="/Users/artmurashko/Desktop/PSS-HW2/Users/User.h">
+		<Unit filename="/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/Users/Student.h">
 			<Option target="PSS_HW2"/>
 		</Unit>
-		<Unit filename="/Users/artmurashko/Desktop/PSS-HW2/main.cpp">
+		<Unit filename="/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/Users/User.cpp">
 			<Option target="PSS_HW2"/>
 		</Unit>
-		<Unit filename="/Users/artmurashko/Desktop/PSS-HW2/CMakeLists.txt">
+		<Unit filename="/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/Users/User.h">
+			<Option target="PSS_HW2"/>
+		</Unit>
+		<Unit filename="/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/main.cpp">
+			<Option target="PSS_HW2"/>
+		</Unit>
+		<Unit filename="/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

@@ -19,6 +19,11 @@ CMakeFiles/PSS_HW2.dir/Users/Director.cpp.o: ../Users/Director.cpp
 CMakeFiles/PSS_HW2.dir/Users/Director.cpp.o: ../Users/Director.h
 CMakeFiles/PSS_HW2.dir/Users/Director.cpp.o: ../Users/User.h
 
+CMakeFiles/PSS_HW2.dir/Users/Guest.cpp.o: ../AccessLevels/Access.h
+CMakeFiles/PSS_HW2.dir/Users/Guest.cpp.o: ../Users/Guest.cpp
+CMakeFiles/PSS_HW2.dir/Users/Guest.cpp.o: ../Users/Guest.h
+CMakeFiles/PSS_HW2.dir/Users/Guest.cpp.o: ../Users/User.h
+
 CMakeFiles/PSS_HW2.dir/Users/LabEmployee.cpp.o: ../AccessLevels/Access.h
 CMakeFiles/PSS_HW2.dir/Users/LabEmployee.cpp.o: ../Users/LabEmployee.cpp
 CMakeFiles/PSS_HW2.dir/Users/LabEmployee.cpp.o: ../Users/LabEmployee.h

@@ -1,4 +1,3 @@
-#include <iostream>
 #include "UniversityAccessSystem.h"
 
 using namespace std;

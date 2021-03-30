@@ -6,31 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/artmurashko/Desktop/PSS-HW2/AccessLevels/Access.h
+/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/Emergency System/EmergencySystem.cpp
+EmergencySystem.h
+/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/Emergency System/EmergencySystem.h
 
-/Users/artmurashko/Desktop/PSS-HW2/Rooms/Room.cpp
-Room.h
-/Users/artmurashko/Desktop/PSS-HW2/Rooms/Room.h
-
-/Users/artmurashko/Desktop/PSS-HW2/Rooms/Room.h
-../Users/User.h
-/Users/artmurashko/Desktop/PSS-HW2/Users/User.h
-../AccessLevels/Access.h
-/Users/artmurashko/Desktop/PSS-HW2/AccessLevels/Access.h
-RoomType.h
-/Users/artmurashko/Desktop/PSS-HW2/Rooms/RoomType.h
-string
--
-vector
--
-
-/Users/artmurashko/Desktop/PSS-HW2/Rooms/RoomType.h
-
-/Users/artmurashko/Desktop/PSS-HW2/Users/User.h
-string
--
+/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/Emergency System/EmergencySystem.h
 iostream
 -
-../AccessLevels/Access.h
-/Users/artmurashko/Desktop/PSS-HW2/AccessLevels/Access.h
 

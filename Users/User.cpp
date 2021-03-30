@@ -28,6 +28,16 @@ int User::getAge() {
     return age;
 }
 
+void User::emergencyOn() {
+    std::cout << "\n" << getName() << " turned on the Alarm \n";
+    setEmergency(true);
+}
+
+void User::emergencyOff() {
+    std::cout << "\n" << getName() << " turned off the Alarm \n";
+    setEmergency(false);
+}
+
 void User::getMainInfo() {
     std::cout <<  "\n-------| Information |-------\n" <<
            "(1) Name: " << getName() << "\n" <<
@@ -39,10 +49,16 @@ void User::getMainInfo() {
 
 std::string User::getAccessLevelString() {
     switch (getAccessLevel()) {
-        case Access::no_level : return "NO LEVEL";
-        case Access::green : return "GREEN";
-        case Access::yellow : return "YELLOW";
-        case Access::red : return "RED";
+        case Access::no_level :
+            return "NO LEVEL";
+        case Access::blue :
+            return "BLUE";
+        case Access::green :
+            return "GREEN";
+        case Access::yellow :
+            return "YELLOW";
+        case Access::red :
+            return "RED";
     }
 }
 

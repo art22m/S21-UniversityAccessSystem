@@ -12,9 +12,10 @@
 
 enum class Access {
     no_level = 0,
-    green = 1,
-    yellow = 2,
-    red = 3
+    blue = 1,
+    green = 2,
+    yellow = 3,
+    red = 4
 };
 
 #endif //PSS_HW2_ACCESS_H

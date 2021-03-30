@@ -13,6 +13,7 @@
 #include "Users/Professor.h"
 #include "Users/LabEmployee.h"
 #include "Users/Student.h"
+#include "Users/Guest.h"
 
 // Include all file from Rooms folder
 #include "Rooms/Room.h"

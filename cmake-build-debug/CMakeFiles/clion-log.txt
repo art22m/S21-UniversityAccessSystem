@@ -1,4 +1,4 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/artmurashko/Desktop/PSS-HW2
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2"
 -- Configuring done
 -- Generating done
--- Build files have been written to: /Users/artmurashko/Desktop/PSS-HW2/cmake-build-debug
+-- Build files have been written to: /Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/cmake-build-debug

@@ -7,12 +7,13 @@
 
 #include "../Users/User.h"
 #include "../AccessLevels/Access.h"
+#include "../Emergency System/EmergencySystem.h"
 #include "RoomType.h"
 
 #include <string>
 #include <vector>
 
-class Room {
+class Room : public EmergencySystem {
 public:
     Room(std::string number, RoomType type);
 

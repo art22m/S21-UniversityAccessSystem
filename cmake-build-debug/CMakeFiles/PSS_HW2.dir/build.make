@@ -63,10 +63,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/artmurashko/Desktop/PSS-HW2
+CMAKE_SOURCE_DIR = "/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/artmurashko/Desktop/PSS-HW2/cmake-build-debug
+CMAKE_BINARY_DIR = "/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/PSS_HW2.dir/depend.make
@@ -79,107 +79,133 @@ include CMakeFiles/PSS_HW2.dir/flags.make
 
 CMakeFiles/PSS_HW2.dir/main.cpp.o: CMakeFiles/PSS_HW2.dir/flags.make
 CMakeFiles/PSS_HW2.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artmurashko/Desktop/PSS-HW2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/PSS_HW2.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PSS_HW2.dir/main.cpp.o -c /Users/artmurashko/Desktop/PSS-HW2/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/PSS_HW2.dir/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PSS_HW2.dir/main.cpp.o -c "/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/main.cpp"
 
 CMakeFiles/PSS_HW2.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PSS_HW2.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/artmurashko/Desktop/PSS-HW2/main.cpp > CMakeFiles/PSS_HW2.dir/main.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/main.cpp" > CMakeFiles/PSS_HW2.dir/main.cpp.i
 
 CMakeFiles/PSS_HW2.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PSS_HW2.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/artmurashko/Desktop/PSS-HW2/main.cpp -o CMakeFiles/PSS_HW2.dir/main.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/main.cpp" -o CMakeFiles/PSS_HW2.dir/main.cpp.s
 
 CMakeFiles/PSS_HW2.dir/Users/User.cpp.o: CMakeFiles/PSS_HW2.dir/flags.make
 CMakeFiles/PSS_HW2.dir/Users/User.cpp.o: ../Users/User.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artmurashko/Desktop/PSS-HW2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/PSS_HW2.dir/Users/User.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PSS_HW2.dir/Users/User.cpp.o -c /Users/artmurashko/Desktop/PSS-HW2/Users/User.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/PSS_HW2.dir/Users/User.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PSS_HW2.dir/Users/User.cpp.o -c "/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/Users/User.cpp"
 
 CMakeFiles/PSS_HW2.dir/Users/User.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PSS_HW2.dir/Users/User.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/artmurashko/Desktop/PSS-HW2/Users/User.cpp > CMakeFiles/PSS_HW2.dir/Users/User.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/Users/User.cpp" > CMakeFiles/PSS_HW2.dir/Users/User.cpp.i
 
 CMakeFiles/PSS_HW2.dir/Users/User.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PSS_HW2.dir/Users/User.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/artmurashko/Desktop/PSS-HW2/Users/User.cpp -o CMakeFiles/PSS_HW2.dir/Users/User.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/Users/User.cpp" -o CMakeFiles/PSS_HW2.dir/Users/User.cpp.s
 
 CMakeFiles/PSS_HW2.dir/Users/Student.cpp.o: CMakeFiles/PSS_HW2.dir/flags.make
 CMakeFiles/PSS_HW2.dir/Users/Student.cpp.o: ../Users/Student.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artmurashko/Desktop/PSS-HW2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/PSS_HW2.dir/Users/Student.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PSS_HW2.dir/Users/Student.cpp.o -c /Users/artmurashko/Desktop/PSS-HW2/Users/Student.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/PSS_HW2.dir/Users/Student.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PSS_HW2.dir/Users/Student.cpp.o -c "/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/Users/Student.cpp"
 
 CMakeFiles/PSS_HW2.dir/Users/Student.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PSS_HW2.dir/Users/Student.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/artmurashko/Desktop/PSS-HW2/Users/Student.cpp > CMakeFiles/PSS_HW2.dir/Users/Student.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/Users/Student.cpp" > CMakeFiles/PSS_HW2.dir/Users/Student.cpp.i
 
 CMakeFiles/PSS_HW2.dir/Users/Student.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PSS_HW2.dir/Users/Student.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/artmurashko/Desktop/PSS-HW2/Users/Student.cpp -o CMakeFiles/PSS_HW2.dir/Users/Student.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/Users/Student.cpp" -o CMakeFiles/PSS_HW2.dir/Users/Student.cpp.s
 
 CMakeFiles/PSS_HW2.dir/Users/Professor.cpp.o: CMakeFiles/PSS_HW2.dir/flags.make
 CMakeFiles/PSS_HW2.dir/Users/Professor.cpp.o: ../Users/Professor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artmurashko/Desktop/PSS-HW2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/PSS_HW2.dir/Users/Professor.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PSS_HW2.dir/Users/Professor.cpp.o -c /Users/artmurashko/Desktop/PSS-HW2/Users/Professor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/PSS_HW2.dir/Users/Professor.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PSS_HW2.dir/Users/Professor.cpp.o -c "/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/Users/Professor.cpp"
 
 CMakeFiles/PSS_HW2.dir/Users/Professor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PSS_HW2.dir/Users/Professor.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/artmurashko/Desktop/PSS-HW2/Users/Professor.cpp > CMakeFiles/PSS_HW2.dir/Users/Professor.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/Users/Professor.cpp" > CMakeFiles/PSS_HW2.dir/Users/Professor.cpp.i
 
 CMakeFiles/PSS_HW2.dir/Users/Professor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PSS_HW2.dir/Users/Professor.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/artmurashko/Desktop/PSS-HW2/Users/Professor.cpp -o CMakeFiles/PSS_HW2.dir/Users/Professor.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/Users/Professor.cpp" -o CMakeFiles/PSS_HW2.dir/Users/Professor.cpp.s
 
 CMakeFiles/PSS_HW2.dir/Users/LabEmployee.cpp.o: CMakeFiles/PSS_HW2.dir/flags.make
 CMakeFiles/PSS_HW2.dir/Users/LabEmployee.cpp.o: ../Users/LabEmployee.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artmurashko/Desktop/PSS-HW2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/PSS_HW2.dir/Users/LabEmployee.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PSS_HW2.dir/Users/LabEmployee.cpp.o -c /Users/artmurashko/Desktop/PSS-HW2/Users/LabEmployee.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/PSS_HW2.dir/Users/LabEmployee.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PSS_HW2.dir/Users/LabEmployee.cpp.o -c "/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/Users/LabEmployee.cpp"
 
 CMakeFiles/PSS_HW2.dir/Users/LabEmployee.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PSS_HW2.dir/Users/LabEmployee.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/artmurashko/Desktop/PSS-HW2/Users/LabEmployee.cpp > CMakeFiles/PSS_HW2.dir/Users/LabEmployee.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/Users/LabEmployee.cpp" > CMakeFiles/PSS_HW2.dir/Users/LabEmployee.cpp.i
 
 CMakeFiles/PSS_HW2.dir/Users/LabEmployee.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PSS_HW2.dir/Users/LabEmployee.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/artmurashko/Desktop/PSS-HW2/Users/LabEmployee.cpp -o CMakeFiles/PSS_HW2.dir/Users/LabEmployee.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/Users/LabEmployee.cpp" -o CMakeFiles/PSS_HW2.dir/Users/LabEmployee.cpp.s
 
 CMakeFiles/PSS_HW2.dir/Users/Director.cpp.o: CMakeFiles/PSS_HW2.dir/flags.make
 CMakeFiles/PSS_HW2.dir/Users/Director.cpp.o: ../Users/Director.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artmurashko/Desktop/PSS-HW2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/PSS_HW2.dir/Users/Director.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PSS_HW2.dir/Users/Director.cpp.o -c /Users/artmurashko/Desktop/PSS-HW2/Users/Director.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/PSS_HW2.dir/Users/Director.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PSS_HW2.dir/Users/Director.cpp.o -c "/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/Users/Director.cpp"
 
 CMakeFiles/PSS_HW2.dir/Users/Director.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PSS_HW2.dir/Users/Director.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/artmurashko/Desktop/PSS-HW2/Users/Director.cpp > CMakeFiles/PSS_HW2.dir/Users/Director.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/Users/Director.cpp" > CMakeFiles/PSS_HW2.dir/Users/Director.cpp.i
 
 CMakeFiles/PSS_HW2.dir/Users/Director.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PSS_HW2.dir/Users/Director.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/artmurashko/Desktop/PSS-HW2/Users/Director.cpp -o CMakeFiles/PSS_HW2.dir/Users/Director.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/Users/Director.cpp" -o CMakeFiles/PSS_HW2.dir/Users/Director.cpp.s
 
 CMakeFiles/PSS_HW2.dir/Users/Admin.cpp.o: CMakeFiles/PSS_HW2.dir/flags.make
 CMakeFiles/PSS_HW2.dir/Users/Admin.cpp.o: ../Users/Admin.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artmurashko/Desktop/PSS-HW2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/PSS_HW2.dir/Users/Admin.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PSS_HW2.dir/Users/Admin.cpp.o -c /Users/artmurashko/Desktop/PSS-HW2/Users/Admin.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/PSS_HW2.dir/Users/Admin.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PSS_HW2.dir/Users/Admin.cpp.o -c "/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/Users/Admin.cpp"
 
 CMakeFiles/PSS_HW2.dir/Users/Admin.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PSS_HW2.dir/Users/Admin.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/artmurashko/Desktop/PSS-HW2/Users/Admin.cpp > CMakeFiles/PSS_HW2.dir/Users/Admin.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/Users/Admin.cpp" > CMakeFiles/PSS_HW2.dir/Users/Admin.cpp.i
 
 CMakeFiles/PSS_HW2.dir/Users/Admin.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PSS_HW2.dir/Users/Admin.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/artmurashko/Desktop/PSS-HW2/Users/Admin.cpp -o CMakeFiles/PSS_HW2.dir/Users/Admin.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/Users/Admin.cpp" -o CMakeFiles/PSS_HW2.dir/Users/Admin.cpp.s
 
 CMakeFiles/PSS_HW2.dir/Rooms/Room.cpp.o: CMakeFiles/PSS_HW2.dir/flags.make
 CMakeFiles/PSS_HW2.dir/Rooms/Room.cpp.o: ../Rooms/Room.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artmurashko/Desktop/PSS-HW2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/PSS_HW2.dir/Rooms/Room.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PSS_HW2.dir/Rooms/Room.cpp.o -c /Users/artmurashko/Desktop/PSS-HW2/Rooms/Room.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/PSS_HW2.dir/Rooms/Room.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PSS_HW2.dir/Rooms/Room.cpp.o -c "/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/Rooms/Room.cpp"
 
 CMakeFiles/PSS_HW2.dir/Rooms/Room.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PSS_HW2.dir/Rooms/Room.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/artmurashko/Desktop/PSS-HW2/Rooms/Room.cpp > CMakeFiles/PSS_HW2.dir/Rooms/Room.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/Rooms/Room.cpp" > CMakeFiles/PSS_HW2.dir/Rooms/Room.cpp.i
 
 CMakeFiles/PSS_HW2.dir/Rooms/Room.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PSS_HW2.dir/Rooms/Room.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/artmurashko/Desktop/PSS-HW2/Rooms/Room.cpp -o CMakeFiles/PSS_HW2.dir/Rooms/Room.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/Rooms/Room.cpp" -o CMakeFiles/PSS_HW2.dir/Rooms/Room.cpp.s
+
+CMakeFiles/PSS_HW2.dir/Users/Guest.cpp.o: CMakeFiles/PSS_HW2.dir/flags.make
+CMakeFiles/PSS_HW2.dir/Users/Guest.cpp.o: ../Users/Guest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/PSS_HW2.dir/Users/Guest.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PSS_HW2.dir/Users/Guest.cpp.o -c "/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/Users/Guest.cpp"
+
+CMakeFiles/PSS_HW2.dir/Users/Guest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PSS_HW2.dir/Users/Guest.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/Users/Guest.cpp" > CMakeFiles/PSS_HW2.dir/Users/Guest.cpp.i
+
+CMakeFiles/PSS_HW2.dir/Users/Guest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PSS_HW2.dir/Users/Guest.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/Users/Guest.cpp" -o CMakeFiles/PSS_HW2.dir/Users/Guest.cpp.s
+
+CMakeFiles/PSS_HW2.dir/Emergency_System/EmergencySystem.cpp.o: CMakeFiles/PSS_HW2.dir/flags.make
+CMakeFiles/PSS_HW2.dir/Emergency_System/EmergencySystem.cpp.o: ../Emergency\ System/EmergencySystem.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/PSS_HW2.dir/Emergency_System/EmergencySystem.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PSS_HW2.dir/Emergency_System/EmergencySystem.cpp.o -c "/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/Emergency System/EmergencySystem.cpp"
+
+CMakeFiles/PSS_HW2.dir/Emergency_System/EmergencySystem.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PSS_HW2.dir/Emergency_System/EmergencySystem.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/Emergency System/EmergencySystem.cpp" > CMakeFiles/PSS_HW2.dir/Emergency_System/EmergencySystem.cpp.i
+
+CMakeFiles/PSS_HW2.dir/Emergency_System/EmergencySystem.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PSS_HW2.dir/Emergency_System/EmergencySystem.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/Emergency System/EmergencySystem.cpp" -o CMakeFiles/PSS_HW2.dir/Emergency_System/EmergencySystem.cpp.s
 
 # Object files for target PSS_HW2
 PSS_HW2_OBJECTS = \
@@ -190,7 +216,9 @@ PSS_HW2_OBJECTS = \
 "CMakeFiles/PSS_HW2.dir/Users/LabEmployee.cpp.o" \
 "CMakeFiles/PSS_HW2.dir/Users/Director.cpp.o" \
 "CMakeFiles/PSS_HW2.dir/Users/Admin.cpp.o" \
-"CMakeFiles/PSS_HW2.dir/Rooms/Room.cpp.o"
+"CMakeFiles/PSS_HW2.dir/Rooms/Room.cpp.o" \
+"CMakeFiles/PSS_HW2.dir/Users/Guest.cpp.o" \
+"CMakeFiles/PSS_HW2.dir/Emergency_System/EmergencySystem.cpp.o"
 
 # External object files for target PSS_HW2
 PSS_HW2_EXTERNAL_OBJECTS =
@@ -203,9 +231,11 @@ PSS_HW2: CMakeFiles/PSS_HW2.dir/Users/LabEmployee.cpp.o
 PSS_HW2: CMakeFiles/PSS_HW2.dir/Users/Director.cpp.o
 PSS_HW2: CMakeFiles/PSS_HW2.dir/Users/Admin.cpp.o
 PSS_HW2: CMakeFiles/PSS_HW2.dir/Rooms/Room.cpp.o
+PSS_HW2: CMakeFiles/PSS_HW2.dir/Users/Guest.cpp.o
+PSS_HW2: CMakeFiles/PSS_HW2.dir/Emergency_System/EmergencySystem.cpp.o
 PSS_HW2: CMakeFiles/PSS_HW2.dir/build.make
 PSS_HW2: CMakeFiles/PSS_HW2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/artmurashko/Desktop/PSS-HW2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable PSS_HW2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable PSS_HW2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/PSS_HW2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -218,6 +248,6 @@ CMakeFiles/PSS_HW2.dir/clean:
 .PHONY : CMakeFiles/PSS_HW2.dir/clean
 
 CMakeFiles/PSS_HW2.dir/depend:
-	cd /Users/artmurashko/Desktop/PSS-HW2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/artmurashko/Desktop/PSS-HW2 /Users/artmurashko/Desktop/PSS-HW2 /Users/artmurashko/Desktop/PSS-HW2/cmake-build-debug /Users/artmurashko/Desktop/PSS-HW2/cmake-build-debug /Users/artmurashko/Desktop/PSS-HW2/cmake-build-debug/CMakeFiles/PSS_HW2.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2" "/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2" "/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/cmake-build-debug" "/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/cmake-build-debug" "/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/cmake-build-debug/CMakeFiles/PSS_HW2.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/PSS_HW2.dir/depend
 

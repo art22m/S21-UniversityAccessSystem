@@ -68,10 +68,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/artmurashko/Desktop/PSS-HW2
+CMAKE_SOURCE_DIR = "/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/artmurashko/Desktop/PSS-HW2/cmake-build-debug
+CMAKE_BINARY_DIR = "/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -100,9 +100,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/artmurashko/Desktop/PSS-HW2/cmake-build-debug/CMakeFiles /Users/artmurashko/Desktop/PSS-HW2/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/cmake-build-debug/CMakeFiles" "/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/cmake-build-debug/CMakeFiles/progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/artmurashko/Desktop/PSS-HW2/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/artmurashko/Desktop/Programming Tasks/PSS-HW2/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -142,6 +142,33 @@ PSS_HW2: cmake_check_build_system
 PSS_HW2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PSS_HW2.dir/build.make CMakeFiles/PSS_HW2.dir/build
 .PHONY : PSS_HW2/fast
+
+Emergency_System/EmergencySystem.o: Emergency_System/EmergencySystem.cpp.o
+
+.PHONY : Emergency_System/EmergencySystem.o
+
+# target to build an object file
+Emergency_System/EmergencySystem.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PSS_HW2.dir/build.make CMakeFiles/PSS_HW2.dir/Emergency_System/EmergencySystem.cpp.o
+.PHONY : Emergency_System/EmergencySystem.cpp.o
+
+Emergency_System/EmergencySystem.i: Emergency_System/EmergencySystem.cpp.i
+
+.PHONY : Emergency_System/EmergencySystem.i
+
+# target to preprocess a source file
+Emergency_System/EmergencySystem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PSS_HW2.dir/build.make CMakeFiles/PSS_HW2.dir/Emergency_System/EmergencySystem.cpp.i
+.PHONY : Emergency_System/EmergencySystem.cpp.i
+
+Emergency_System/EmergencySystem.s: Emergency_System/EmergencySystem.cpp.s
+
+.PHONY : Emergency_System/EmergencySystem.s
+
+# target to generate assembly for a file
+Emergency_System/EmergencySystem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PSS_HW2.dir/build.make CMakeFiles/PSS_HW2.dir/Emergency_System/EmergencySystem.cpp.s
+.PHONY : Emergency_System/EmergencySystem.cpp.s
 
 Rooms/Room.o: Rooms/Room.cpp.o
 
@@ -223,6 +250,33 @@ Users/Director.s: Users/Director.cpp.s
 Users/Director.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PSS_HW2.dir/build.make CMakeFiles/PSS_HW2.dir/Users/Director.cpp.s
 .PHONY : Users/Director.cpp.s
+
+Users/Guest.o: Users/Guest.cpp.o
+
+.PHONY : Users/Guest.o
+
+# target to build an object file
+Users/Guest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PSS_HW2.dir/build.make CMakeFiles/PSS_HW2.dir/Users/Guest.cpp.o
+.PHONY : Users/Guest.cpp.o
+
+Users/Guest.i: Users/Guest.cpp.i
+
+.PHONY : Users/Guest.i
+
+# target to preprocess a source file
+Users/Guest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PSS_HW2.dir/build.make CMakeFiles/PSS_HW2.dir/Users/Guest.cpp.i
+.PHONY : Users/Guest.cpp.i
+
+Users/Guest.s: Users/Guest.cpp.s
+
+.PHONY : Users/Guest.s
+
+# target to generate assembly for a file
+Users/Guest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PSS_HW2.dir/build.make CMakeFiles/PSS_HW2.dir/Users/Guest.cpp.s
+.PHONY : Users/Guest.cpp.s
 
 Users/LabEmployee.o: Users/LabEmployee.cpp.o
 
@@ -368,6 +422,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... PSS_HW2"
+	@echo "... Emergency_System/EmergencySystem.o"
+	@echo "... Emergency_System/EmergencySystem.i"
+	@echo "... Emergency_System/EmergencySystem.s"
 	@echo "... Rooms/Room.o"
 	@echo "... Rooms/Room.i"
 	@echo "... Rooms/Room.s"
@@ -377,6 +434,9 @@ help:
 	@echo "... Users/Director.o"
 	@echo "... Users/Director.i"
 	@echo "... Users/Director.s"
+	@echo "... Users/Guest.o"
+	@echo "... Users/Guest.i"
+	@echo "... Users/Guest.s"
 	@echo "... Users/LabEmployee.o"
 	@echo "... Users/LabEmployee.i"
 	@echo "... Users/LabEmployee.s"
